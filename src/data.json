@@ -561,5 +561,229 @@
         }
       ]
     },
+    {
+      "answer": "Mid",
+      "question": "How Complex Should the Hero Be?",
+      "options": [
+        {
+          "answer": "Unga Bunga",
+          "character": "huskar"
+        },
+        {
+          "answer": "Pretty Simple",
+          "question": "Do You Want to Push Towers?",
+          "options": [
+            {
+              "answer": "Yes",
+              "question": "You Want Stuns?",
+              "options": [
+                {
+                  "answer": "Yes",
+                  "character": "leshrac"
+                },
+                {
+                  "answer": "No",
+                  "character": "death_prophet"
+                }
+              ]
+            },
+            {
+              "answer": "No",
+              "question": "How Quickly Do You Want to Kill Your Enemies?",
+              "options": [
+                {
+                  "answer": "2 Seconds",
+                  "character": "zeus"
+                },
+                {
+                  "answer": "Quick But Not Unreasonable",
+                  "character": "necrosphos"
+                },
+                {
+                  "answer": "When I Get Around to It",
+                  "character": "viper"
+                }
+              ]
+            },
+            {
+              "answer": "Maybe",
+              "question": "Do You Wnat to Attack Fast or Run Fast?",
+              "options": [
+                {
+                  "answer": "Attacking",
+                  "character": "lina"
+                },
+                {
+                  "answer": "Zooming",
+                  "character": "Razor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "answer": "Complex",
+          "question": "Melee or Ranged?",
+          "options": [
+            {
+              "answer": "Melee",
+              "question": "Do You Want to Knock Down Towers All Day?",
+              "options": [
+                {
+                  "answer": "Yes",
+                  "question": "Do You Have Arachnophobia?",
+                  "options": [
+                    {
+                      "answer": "Yes",
+                      "character": "lone_druid"
+                    },
+                    {
+                      "answer": "No",
+                      "character": "broodmother"
+                    }
+                  ]
+                },
+                {
+                  "answer": "No",
+                  "question": "In Fights, Do You Want to Stun Everybody or Zip Around?",
+                  "options": [
+                    {
+                      "answer": "Zippy!",
+                      "question": "Red or Purple?",
+                      "options": [
+                        {
+                          "answer": "Red",
+                          "character": "ember_spirit"
+                        },
+                        {
+                          "answer": "Purple",
+                          "character": "void_spirit"
+                        }
+                      ]
+                    },
+                    {
+                      "answer": "Stun",
+                      "question": "Do You Want To Be a Pirate?",
+                      "options": [
+                        {
+                          "answer": "Yes",
+                          "character": "kunkka"
+                        },
+                        {
+                          "answer": "Yes and Also I Want To Be French",
+                          "character": "pangolier"
+                        },
+                        {
+                          "answer": "No",
+                          "question": "Still Wrong. Do You Want To Be a Pirate?",
+                          "options": [
+                            {
+                              "answer": "Yes",
+                              "character": "kunkka"
+                            },
+                            {
+                              "answer": "Yes and Also I Want To Be French",
+                              "character": "pangolier"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "answer": "Ranged",
+          "question": "Be Honest. How Big is Your EGO?",
+          "options": [
+            {
+              "answer": "Big",
+              "character": "storm_spirit"
+            },
+            {
+              "answer": "Enomous",
+              "character": "shadow_fiend"
+            },
+            {
+              "answer": "Big and Also I Hate You",
+              "character": "outworld_devourer"
+            },
+            {
+              "answer": "I Would Say Normal Size",
+              "question": "Do You Want to Teleport Around?",
+              "options": [
+                {
+                  "answer": "No",
+                  "question": "Do You Want to Stun People?",
+                  "options": [
+                    {
+                      "answer": "Yes",
+                      "character": "batrider"
+                    },
+                    {
+                      "answer": "No",
+                      "character": "templar_assassin"
+                    },
+                    {
+                      "answer": "Maybe a Little",
+                      "character": "windranger"
+                    }
+                  ]
+                },
+                {
+                  "answer": "Yes",
+                  "question": "Do You Want to Just Blast People?",
+                  "options": [
+                    {
+                      "answer": "Yes",
+                      "character": "queen_of_pain"
+                    },
+                    {
+                      "answer": "Maybe a Little",
+                      "character": "puck"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "answer": "Very Complex",
+          "question": "How Many Units Do You Want to Control?",
+          "options": [
+            {
+              "answer": "2",
+              "character": "arc_warden"
+            },
+            {
+              "answer": "3",
+              "character": "visage"
+            },
+            {
+              "answer": "5",
+              "character": "meepo"
+            },
+            {
+              "answer": "1",
+              "question": "Magic or Science?",
+              "options": [
+                {
+                  "answer": "Magic",
+                  "character": "invoker"
+                },
+                {
+                  "answer": "Science",
+                  "character": "tinker"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
   ]
 }
