@@ -153,7 +153,7 @@
                   "options": [
                     {
                       "answer": "No",
-                      "questions:": "Do You Want to Be Kinda Durable?",
+                      "question:": "Do You Want to Be Kinda Durable?",
                       "options": [
                         {
                           "answer": "Nah, I'm Good",
@@ -385,7 +385,7 @@
                     },
                     {
                       "answer": "No",
-                      "question": "Melee or Tanged?",
+                      "question": "Melee or Ranged?",
                       "options": [
                         {
                           "answer": "Melee",
@@ -785,5 +785,265 @@
         }
       ]
     },
+    {
+      "answer": "Carry",
+      "quesion": "How Complex Should the Hero Be?",
+      "options": [
+        {
+          "answer": "Very Complex",
+          "character": "morphling"
+        },
+        {
+          "answer": "Complex",
+          "question": "Melee or Ranged?",
+          "options": [
+            {
+              "answer": "Melee",
+              "question": "Do You Want to Be Carry Every Single Time?",
+              "options": [
+                {
+                  "answer": "I Could Try Mid As Well",
+                  "question": "What About Support?",
+                  "options": [
+                    {
+                      "answer": "Not a Chance",
+                      "character": "alchemist"
+                    },
+                    {
+                      "answer": "I'll Try Whatever!",
+                      "question": "How Do YOu Want to Get Your Kills?",
+                      "options": [
+                        {
+                          "answer": "Brute Force",
+                          "character": "tiny"
+                        },
+                        {
+                          "answer": "Style on em",
+                          "character": "monkey_king"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "answer": "Yes",
+                  "question": "Do You Like Illusions?",
+                  "options": [
+                    {
+                      "answer": "Yes",
+                      "question": "What About Stuns?",
+                      "options": [
+                        {
+                          "answer": "Stuns Are For the Weak",
+                          "character": "phantom_lancer"
+                        },
+                        {
+                          "answer": "Cant Go Wrong With a Good Stun",
+                          "character": "naga_siren"
+                        }
+                      ]
+                    },
+                    {
+                      "answer": "No",
+                      "question": "Do You Want To Be a Tank?",
+                      "options": [
+                        {
+                          "answer": "Yes",
+                          "question": "Do You Want to 1v1 or Teamfight?",
+                          "options": [
+                            {
+                              "answer": "1v1",
+                              "character": "lifestealer"
+                            },
+                            {
+                              "answer": "Teamfight",
+                              "character": "spectre"
+                            }
+                          ]
+                        },
+                        {
+                          "answer": "No",
+                          "question": "Do You Want a Massive Teamfight Ult?",
+                          "options": [
+                            {
+                              "answer": "Yes",
+                              "character": "faceless_void"
+                            },
+                            {
+                              "answer": "Dont Need One",
+                              "character": "slark"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "answer": "Ranged",
+              "question": "Do You Like to Go Invisible?",
+              "options": [
+                {
+                  "answer": "Yes",
+                  "question": "Do You Want to Push Towers?",
+                  "options": [
+                    {
+                      "answer": "Yes",
+                      "character": "clinkz"
+                    },
+                    {
+                      "answer": "No",
+                      "character": "weaver"
+                    }
+                  ]
+                },
+                {
+                  "answer": "No",
+                  "question": "Physical Damange or Magical Damage?",
+                  "options": [
+                    {
+                      "answer": "Physical",
+                      "character": "gyrocopter"
+                    },
+                    {
+                      "answer": "Magic",
+                      "character": "muerta"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "answer": "I Cant Decide",
+              "question": "Whats Your Strategy?",
+              "options": [
+                {
+                  "answer": "Im Very Calculated and Precise",
+                  "character": "terrorblade"
+                },
+                {
+                  "answer": "Haha Axes Go BRRRR",
+                  "character": "troll_warlord"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "answer": "Pretty Simple",
+          "question": "Melee or Ranged?",
+          "options": [
+            {
+              "answer": "Ranged",
+              "question": "If Your Attacks Could Have an Extra Effect, What Would It Be?",
+              "options": [
+                {
+                  "answer": "Bouncy",
+                  "character": "luna"
+                },
+                {
+                  "answer": "1 Mile of Range",
+                  "character": "sniper"
+                },
+                {
+                  "answer": "Freeze People",
+                  "character": "drow_ranger"
+                },
+                {
+                  "answer": "Hit Everyone In Sight",
+                  "character": "medusa"
+                }
+              ]
+            },
+            {
+              "answer": "Melee",
+              "question": "Do You Want the Option to Be a Support Sometimes?",
+              "options": [
+                {
+                  "answer": "Yes",
+                  "character": "riki"
+                },
+                {
+                  "answer": "No",
+                  "question": "Do You Want a Short-Range Teleport Ability?",
+                  "options": [
+                    {
+                      "answer": "Yes",
+                      "question": "And Evasion?",
+                      "options": [
+                        {
+                          "answer": "Yes",
+                          "character": "phantom_assassin"
+                        },
+                        {
+                          "answer": "No",
+                          "character": "antimage"
+                        }
+                      ]
+                    },
+                    {
+                      "answer": "No",
+                      "question": "Do You Want to Go into a Rage?",
+                      "options": [
+                        {
+                          "answer": "Yes",
+                          "question": "Do You Want to Absolutely Murder Roshan?",
+                          "options": [
+                            {
+                              "answer": "Yes",
+                              "character": "ursa"
+                            },
+                            {
+                              "answer": "A Little Bit",
+                              "character": "sven"
+                            }
+                          ]
+                        },
+                        {
+                          "answer": "No",
+                          "question": "Do You Want To Be a Tank?",
+                          "options": [
+                            {
+                              "answer": "Yes",
+                              "question": "What Would You Like to Summon",
+                              "options": [
+                                {
+                                  "answer": "Illusions",
+                                  "character": "chaos_knight"
+                                },
+                                {
+                                  "answer": "Skeletons",
+                                  "character": "wraith_king"
+                                }
+                              ]
+                            },
+                            {
+                              "answer": "No",
+                              "question": "Do YOu Want to Make Race Car Noises While Playing?",
+                              "options": [
+                                {
+                                  "answer": "Yes",
+                                  "character": "bloodseeker"
+                                },
+                                {
+                                  "answer": "No",
+                                  "character": "juggernaut"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   ]
 }
