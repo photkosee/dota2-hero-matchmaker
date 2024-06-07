@@ -1,0 +1,409 @@
+{
+  "question": "What Role Do You Want to Play?",
+  "options": [
+    {
+      "answer": "Support",
+      "question": "How Complex Should the Hero Be?",
+      "options": [
+        {
+          "answer": "Pretty Simple",
+          "question": "Do You Want To Be Support Every Single Time?",
+          "options": [
+            {
+              "answer": "I Could Try Offlane?",
+              "question": "Stun?",
+              "options": [
+                {
+                  "answer": "None For Me, Thanks!",
+                  "question": "Healing?",
+                  "options": [
+                    {
+                      "answer": "None For Me, Thanks!",
+                      "question": "Name Your Plague",
+                      "options": [
+                        {
+                          "answer": "Poison",
+                          "character": "venomancer"
+                        },
+                        {
+                          "answer": "Zombies",
+                          "character": "undying"
+                        }
+                      ]
+                    },
+                    {
+                      "answer": "Yes",
+                      "character": "omniknight"
+                    }
+                  ]
+                },
+                {
+                  "answer": "Yes, Please",
+                  "question": "What Should Your Ult Do?",
+                  "options": [
+                    {
+                      "answer": "Gambling",
+                      "character": "ogre_magi"
+                    },
+                    {
+                      "answer": "Massive Damage",
+                      "character": "lion"
+                    },
+                    {
+                      "answer": "Big Stun",
+                      "character": "spirit_breaker"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "answer": "I Could Try Mid",
+              "question": "How Many Stuns Do You Want?",
+              "options": [
+                {
+                  "answer": "None",
+                  "question": "Save Your Team or Murder Enemies?",
+                  "options": [
+                    {
+                      "answer": "I Like Murder",
+                      "character": "skywrath_mage"
+                    },
+                    {
+                      "answer": "Save Allies",
+                      "character": "dazzle"
+                    }
+                  ]
+                },
+                {
+                  "answer": "Some",
+                  "question": "Do You Want the Option to Build Right Click Damage?",
+                  "options": [
+                    {
+                      "answer": "No",
+                      "character": "witch_doctor"
+                    },
+                    {
+                      "answer": "Yes",
+                      "character": "snapfire"
+                    }
+                  ]
+                },
+                {
+                  "answer": "Lots",
+                  "question": "Stay Way Back or Jump In?",
+                  "options": [
+                    {
+                      "answer": "Stay Back",
+                      "character": "jakiro"
+                    },
+                    {
+                      "answer": "Jump In",
+                      "character": "crystal_maiden"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "answer": "I Could Try Carry",
+              "question": "When Do You Want To Be Strongest?",
+              "options": [
+                {
+                  "answer": "Early/Midgame",
+                  "character": "vengeful_spirit"
+                },
+                {
+                  "answer": "Late Game",
+                  "character": "Silencer"
+                }
+              ]
+            },
+            {
+              "answer": "Yes",
+              "question": "Specialty?",
+              "options": [
+                {
+                  "answer": "Lane Dominator",
+                  "character": "Lich"
+                },
+                {
+                  "answer": "Stuns",
+                  "character": "shadow_shaman"
+                },
+                {
+                  "answer": "Pushing Towers",
+                  "character": "warlock"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "answer": "Complex",
+          "question": "How Versatile Should the Hero Be?",
+          "options": [
+            {
+              "answer": "Very Versatile",
+              "question": "Melee or Ranged?",
+              "options": [
+                {
+                  "answer": "Ranged",
+                  "question": "Are You Addicted to Barely Escaping With Your Life?",
+                  "options": [
+                    {
+                      "answer": "No",
+                      "questions:": "Do You Want to Be Kinda Durable?",
+                      "options": [
+                        {
+                          "answer": "Nah, I'm Good",
+                          "character": "ancient_apparition"
+                        },
+                        {
+                          "answer": "Yes",
+                          "character": "enchantress"
+                        }
+                      ]
+                    },
+                    {
+                      "answer": "Yes",
+                      "question": "Gotta Go Fast?",
+                      "options": [
+                        {
+                          "answer": "Yes",
+                          "character": "hoodwink"
+                        },
+                        {
+                          "answer": "No",
+                          "character": "dark_willow"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "answer": "Melee",
+                  "question": "You wanna be a Chunky Boi?",
+                  "options": [
+                    {
+                      "answer": "No",
+                      "question": "You a Thief?",
+                      "options": [
+                        {
+                          "answer": "No",
+                          "character": "Marci"
+                        },
+                        {
+                          "answer": "Yes",
+                          "character": "bounty_hunter"
+                        }
+                      ]
+                    },
+                    {
+                      "answer": "Yes",
+                      "question": "Dota's Most Popular Hero?",
+                      "options": [
+                        {
+                          "answer": "Yes",
+                          "character": "pudge"
+                        },
+                        {
+                          "answer": "No",
+                          "character": "tusk"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "answer": "Somewhat Versatile",
+              "question": "Melee or Ranged?",
+              "options": [
+                {
+                  "answer": "Melee",
+                  "question": "How Many Stuns Do You Want?",
+                  "options": [
+                    {
+                      "answer": "None",
+                      "character": "dark_seer"
+                    },
+                    {
+                      "answer": "No Stun But a Big Root",
+                      "character": "treant_protector"
+                    },
+                    {
+                      "answer": "Plenty",
+                      "character": "clockwerk"
+                    },
+                    {
+                      "answer": "All of Them",
+                      "character": "earthshaker"
+                    }
+                  ]
+                },
+                {
+                  "answer": "Ranged",
+                  "question": "Do You Want Everyone to Hate You?",
+                  "options": [
+                    {
+                      "answer": "No",
+                      "question": "How Do You Feel About Skillshots?",
+                      "options": [
+                        {
+                          "answer": "No Thx",
+                          "character": "winter_wyvern"
+                        },
+                        {
+                          "answer": "Love em",
+                          "character": "mirana"
+                        }
+                      ]
+                    },
+                    {
+                      "answer": "Yes",
+                      "question": "You Like Bombs??",
+                      "options": [
+                        {
+                          "answer": "Yes",
+                          "character": "techies"
+                        },
+                        {
+                          "answer": "No",
+                          "character": "pugna"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "answer": "I Just Wanna Do My One Thing",
+              "question": "And What is That One Thing?",
+              "options": [
+                {
+                  "answer": "Teamfighting",
+                  "question": "Do You Want to Be At All Useful When Your Ult is on Cooldown?",
+                  "options": [
+                    {
+                      "answer": "No",
+                      "character": "enigma"
+                    },
+                    {
+                      "answer": "Yes",
+                      "character": "phoenix"
+                    }
+                  ]
+                },
+                {
+                  "answer": "Completely Shutting Down One Guy",
+                  "question": "By...",
+                  "options": [
+                    {
+                      "answer": "Stunning Them",
+                      "character": "bane"
+                    },
+                    {
+                      "answer": "Killing Them",
+                      "character": "nyx_assassin"
+                    }
+                  ]
+                },
+                {
+                  "answer": "Being a Total Lane Bully",
+                  "question": "...with a dash of...",
+                  "options": [
+                    {
+                      "answer": "Lighting",
+                      "character": "disruptor"
+                    },
+                    {
+                      "answer": "Paint",
+                      "character": "grimstroke"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "answer": "Very Complex",
+          "question": "Do You Want to Control a Bunch of Creeps?",
+          "options": [
+            {
+              "answer": "Yes",
+              "question": "Do You Want the Option to Become a Carry?",
+              "options": [
+                {
+                  "answer": "No",
+                  "character": "chen"
+                },
+                {
+                  "answer": "Yes",
+                  "character": "nature's_prophet"
+                }
+              ]
+            },
+            {
+              "answer": "No",
+              "question": "What's Your Main Goal?",
+              "options": [
+                {
+                  "answer": "Heal Allies",
+                  "question": "Do You Want to Cast a Lot of Spells?",
+                  "options": [
+                    {
+                      "answer": "No",
+                      "character": "io"
+                    },
+                    {
+                      "answer": "Yes",
+                      "character": "oracle"
+                    }
+                  ]
+                },
+                {
+                  "answer": "Disrupt Enemies",
+                  "question": "Turn Your Enemies' Power Against Them?",
+                  "options": [
+                    {
+                      "answer": "Yes",
+                      "question": "Wizard or Demon?",
+                      "options": [
+                        {
+                          "answer": "Wizard",
+                          "character": "rubick"
+                        },
+                        {
+                          "answer": "Demon",
+                          "character": "shadow_demon"
+                        }
+                      ]
+                    },
+                    {
+                      "answer": "No",
+                      "question": "Melee or Tanged?",
+                      "options": [
+                        {
+                          "answer": "Melee",
+                          "character": "earth_spirit"
+                        },
+                        {
+                          "answer": "Ranged",
+                          "character": "keeper_of_the_light"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+  ]
+}
