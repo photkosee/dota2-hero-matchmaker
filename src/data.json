@@ -111,7 +111,7 @@
               "options": [
                 {
                   "answer": "Early/Midgame",
-                  "character": "vengeful_spirit"
+                  "character": "vengefulspirit"
                 },
                 {
                   "answer": "Late Game",
@@ -343,7 +343,7 @@
                 },
                 {
                   "answer": "Yes",
-                  "character": "nature's_prophet"
+                  "character": "furion"
                 }
               ]
             },
@@ -431,7 +431,7 @@
                 },
                 {
                   "answer": "Pretty Versatile",
-                  "character": "underlord"
+                  "character": "abyssal_underlord"
                 }
               ]
             },
@@ -513,7 +513,7 @@
                         },
                         {
                           "answer": "No",
-                          "character": "centaur_warrunner"
+                          "character": "centaur"
                         }
                       ]
                     },
@@ -593,7 +593,7 @@
               "options": [
                 {
                   "answer": "2 Seconds",
-                  "character": "zeus"
+                  "character": "zuus"
                 },
                 {
                   "answer": "Quick But Not Unreasonable",
@@ -727,7 +727,7 @@
                         },
                         {
                           "answer": "Maybe a Little",
-                          "character": "windranger"
+                          "character": "winrunner"
                         }
                       ]
                     },
@@ -1015,7 +1015,7 @@
                                 },
                                 {
                                   "answer": "Skeletons",
-                                  "character": "wraith_king"
+                                  "character": "skeleton_king"
                                 }
                               ]
                             },
