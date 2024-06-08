@@ -34,14 +34,14 @@ const QuestionPage = () => {
         bg-[url('../public/q-bg.webp')] bg-cover bg-center bg-no-repeat p-7"
       >
         <div
-          className="w-full max-w-3xl animate-fadein h-full flex flex-col
-          gap-10"
+          className={`
+            w-full max-w-3xl h-full flex flex-col gap-10
+            ${fade && "animate-fadeback"}
+          `}
         >
           <div
-            className={`
-              mt-[100px] flex flex-col text-center items-center gap-8 w-full min-h-[400px]
-              ${fade && "animate-fadeback"}
-            `}
+            className="mt-[100px] flex flex-col text-center items-center
+            gap-8 w-full min-h-[400px] animate-fadein"
           >
             <span className="text-3xl text-white font-semibold uppercase">
               {currentNode.question}
@@ -49,7 +49,7 @@ const QuestionPage = () => {
 
             <div className="bg-[#ff6046] w-[70px] h-[3px] rounded-[1px]" />
 
-            <div className="w-full flex flex-col gap-3">
+            <div className="w-full flex flex-col gap-3 animate-fadein">
               {currentNode.options.map((option, index) => (
                 <button
                   key={index}
@@ -65,7 +65,7 @@ const QuestionPage = () => {
             </div>
           </div>
 
-          <div className="flex flex-col gap-3 items-center">
+          <div className="flex flex-col gap-3 items-center animate-fadein">
             <button
               className="uppercase text-[#e2dace] font-semibold border-[#ffffff50]
               border-[3px] rounded-[5px] px-4 py-2 hover:border-[#ff6046]

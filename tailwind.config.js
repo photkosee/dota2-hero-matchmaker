@@ -28,10 +28,19 @@ export default {
             opacity: "1",
           }
         },
+        turnin: {
+          "0%" : {
+            opacity: "0",
+          },
+          "100%" : {
+            opacity: "1",
+          }
+        },
       },
       animation: {
         fadein: "fadein 1.5s",
         fadeback: "fadeback 2s",
+        turnin: "turnin 2s",
       },
     },
   },
