@@ -10,7 +10,7 @@ const LandingPage = () => {
   return (
     <div
       className="min-h-screen w-[calc(100vw - 100%)] h-full flex justify-center
-      bg-[url('./bg.webp')] bg-cover bg-center bg-no-repeat px-3 py-7"
+      bg-[url('../public/bg.webp')] bg-cover bg-center bg-no-repeat px-3 py-7"
     >
       <div className="h-full flex flex-col mt-[400px] sm:mt-[450px] items-center gap-5">
         <div className="flex flex-col animate-fadein text-center">

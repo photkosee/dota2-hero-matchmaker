@@ -31,7 +31,7 @@ const QuestionPage = () => {
     <>
       <div
         className="min-h-screen w-[calc(100vw - 100%)] h-full flex justify-center
-        bg-[url('./q-bg.webp')] bg-cover bg-center bg-no-repeat px-5 py-7"
+        bg-[url('../public/q-bg.webp')] bg-cover bg-center bg-no-repeat px-5 py-7"
       >
         <div
           className="w-full max-w-3xl animate-fadein h-full flex flex-col

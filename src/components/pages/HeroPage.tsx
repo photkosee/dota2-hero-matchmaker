@@ -15,7 +15,7 @@ const HeroPage = () => {
     <>
       <div
         className="min-h-screen w-[calc(100vw - 100%)] h-full flex justify-center
-        items-center bg-[url('./q-bg.webp')] bg-cover bg-center bg-no-repeat px-5 py-7"
+        items-center bg-[url('../public/q-bg.webp')] bg-cover bg-center bg-no-repeat px-5 py-7"
       >
         <div
           className="w-full h-full max-w-xl animate-fadein flex flex-col gap-7
