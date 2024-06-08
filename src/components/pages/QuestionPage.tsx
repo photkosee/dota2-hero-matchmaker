@@ -6,6 +6,7 @@ import { Node, Option } from "../../types";
 
 const QuestionPage = () => {
   const [currentNode, setCurrentNode] = useState<Node>(data as Node);
+  const [prevNode, setPrevNode] = useState<Node>(data as Node);
   const [fade, setFade] = useState<boolean>(false);
   const navigate = useNavigate();
 
@@ -22,8 +23,19 @@ const QuestionPage = () => {
       if (option.character) {
         navigate(`/hero/${option.character}`);
       } else if (option.options) {
+        setPrevNode(currentNode);
         setCurrentNode(option as Node);
       }
+    }, 1000);
+  };
+
+  const handleBackPrev = () => {
+    setFade(true);
+    setTimeout(() => {
+      setFade(false);
+    }, 1500);
+    setTimeout(() => {
+      setCurrentNode(prevNode);
     }, 1000);
   };
 
@@ -66,6 +78,14 @@ const QuestionPage = () => {
           </div>
 
           <div className="flex flex-col gap-3 items-center animate-fadein">
+            {currentNode !== prevNode && (
+              <button
+                className="hover:text-[#ff6046] transition-all duration-300"
+                onClick={handleBackPrev}
+              >
+                Back
+              </button>
+            )}
             <button
               className="uppercase text-[#e2dace] font-semibold border-[#ffffff50]
               border-[3px] rounded-[5px] px-4 py-2 hover:border-[#ff6046]

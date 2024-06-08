@@ -49,7 +49,7 @@ const HeroPage = () => {
             )}
 
             <div
-              className="absolute bottom-5 sm:bottom-10 sm:left-5
+              className="absolute bottom-2 -left-5 sm:bottom-10 sm:left-5
               flex flex-col text-wrap"
             >
               <span className="uppercase text-lg sm:text-xl md:text-2xl text-[#E2DACE90]">
