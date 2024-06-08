@@ -153,7 +153,7 @@
                   "options": [
                     {
                       "answer": "No",
-                      "question:": "Do You Want to Be Kinda Durable?",
+                      "question": "Do You Want to Be Kinda Durable?",
                       "options": [
                         {
                           "answer": "Nah, I'm Good",
@@ -441,7 +441,7 @@
               "options": [
                 {
                   "answer": "I Hate That Guy",
-                  "character": "doom"
+                  "character": "doom_bringer"
                 },
                 {
                   "answer": "Whole Team",
@@ -453,7 +453,7 @@
                     },
                     {
                       "answer": "No",
-                      "character": "magnus"
+                      "character": "magnataur"
                     }
                   ]
                 }
@@ -615,7 +615,7 @@
                 },
                 {
                   "answer": "Zooming",
-                  "character": "Razor"
+                  "character": "razor"
                 }
               ]
             }
@@ -692,58 +692,58 @@
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "answer": "Ranged",
-          "question": "Be Honest. How Big is Your EGO?",
-          "options": [
-            {
-              "answer": "Big",
-              "character": "storm_spirit"
             },
             {
-              "answer": "Enomous",
-              "character": "shadow_fiend"
-            },
-            {
-              "answer": "Big and Also I Hate You",
-              "character": "outworld_devourer"
-            },
-            {
-              "answer": "I Would Say Normal Size",
-              "question": "Do You Want to Teleport Around?",
+              "answer": "Ranged",
+              "question": "Be Honest. How Big is Your EGO?",
               "options": [
                 {
-                  "answer": "No",
-                  "question": "Do You Want to Stun People?",
-                  "options": [
-                    {
-                      "answer": "Yes",
-                      "character": "batrider"
-                    },
-                    {
-                      "answer": "No",
-                      "character": "templar_assassin"
-                    },
-                    {
-                      "answer": "Maybe a Little",
-                      "character": "windranger"
-                    }
-                  ]
+                  "answer": "Big",
+                  "character": "storm_spirit"
                 },
                 {
-                  "answer": "Yes",
-                  "question": "Do You Want to Just Blast People?",
+                  "answer": "Enomous",
+                  "character": "nevermore"
+                },
+                {
+                  "answer": "Big and Also I Hate You",
+                  "character": "obsidian_devourer"
+                },
+                {
+                  "answer": "I Would Say Normal Size",
+                  "question": "Do You Want to Teleport Around?",
                   "options": [
                     {
-                      "answer": "Yes",
-                      "character": "queen_of_pain"
+                      "answer": "No",
+                      "question": "Do You Want to Stun People?",
+                      "options": [
+                        {
+                          "answer": "Yes",
+                          "character": "batrider"
+                        },
+                        {
+                          "answer": "No",
+                          "character": "templar_assassin"
+                        },
+                        {
+                          "answer": "Maybe a Little",
+                          "character": "windranger"
+                        }
+                      ]
                     },
                     {
-                      "answer": "Maybe a Little",
-                      "character": "puck"
+                      "answer": "Yes",
+                      "question": "Do You Want to Just Blast People?",
+                      "options": [
+                        {
+                          "answer": "Yes",
+                          "character": "queen_of_pain"
+                        },
+                        {
+                          "answer": "Maybe a Little",
+                          "character": "puck"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -787,7 +787,7 @@
     },
     {
       "answer": "Carry",
-      "quesion": "How Complex Should the Hero Be?",
+      "question": "How Complex Should the Hero Be?",
       "options": [
         {
           "answer": "Very Complex",
@@ -811,7 +811,7 @@
                     },
                     {
                       "answer": "I'll Try Whatever!",
-                      "question": "How Do YOu Want to Get Your Kills?",
+                      "question": "How Do You Want to Get Your Kills?",
                       "options": [
                         {
                           "answer": "Brute Force",

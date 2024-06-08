@@ -17,9 +17,21 @@ export default {
             opacity: "1",
           }
         },
+        fadeback: {
+          "0%" : {
+            opacity: "1",
+          },
+          "50%" : {
+            opacity: "0",
+          },
+          "100%" : {
+            opacity: "1",
+          }
+        },
       },
       animation: {
         fadein: "fadein 1.5s",
+        fadeback: "fadeback 2s",
       },
     },
   },
