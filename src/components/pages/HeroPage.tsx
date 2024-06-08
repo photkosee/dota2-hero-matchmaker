@@ -1,4 +1,5 @@
 import { useNavigate, useParams } from "react-router-dom";
+import { isMobile } from "react-device-detect";
 
 const URL =
   "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/";
@@ -14,7 +15,7 @@ const HeroPage = () => {
   return (
     <>
       <div
-        className="min-h-screen w-[calc(100vw - 100%)] h-full flex justify-center
+        className="min-h-screen w-[calc(100vw - 100%)] h-full flex justify-center overflow-x-hidden
         items-center bg-[url('../public/q-bg.webp')] bg-cover bg-center bg-no-repeat px-5 py-7"
       >
         <div
@@ -22,22 +23,29 @@ const HeroPage = () => {
           items-center p-10"
         >
           <div className="w-full max-h-[500px] relative">
-            <video
-              poster={`${URL}${hero}.png`}
-              autoPlay
-              preload="auto"
-              loop
-              playsInline
-            >
-              <source src={`${URL}${hero}.webm`} type="video/webm" />
+            {isMobile ? (
               <img src={`${URL}${hero}.png`} />
-            </video>
+            ) : (
+              <video
+                poster={`${URL}${hero}.png`}
+                autoPlay
+                preload="auto"
+                loop
+                playsInline
+              >
+                <source src={`${URL}${hero}.webm`} type="video/webm" />
+                <img src={`${URL}${hero}.png`} />
+              </video>
+            )}
 
-            <div className="absolute bottom-10 left-5 flex flex-col">
-              <span className="uppercase text-xl md:text-2xl text-[#E2DACE90]">
+            <div
+              className="absolute bottom-5 sm:bottom-10 sm:left-5
+              flex flex-col text-wrap"
+            >
+              <span className="uppercase text-lg sm:text-xl md:text-2xl text-[#E2DACE90]">
                 your hero is
               </span>
-              <span className="text-5xl md:text-7xl uppercase">
+              <span className="text-3xl sm:text-5xl md:text-7xl uppercase">
                 {hero && hero.replace(/_/g, " ")}
               </span>
             </div>
