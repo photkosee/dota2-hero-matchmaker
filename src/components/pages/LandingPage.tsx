@@ -21,7 +21,7 @@ const LandingPage = () => {
           best!
         </p>
         <div className="flex flex-col gap-3 items-center">
-          <a href="/question">
+          <a href="/dota2-hero-matchmaker/question">
             <button
               className="uppercase text-[#e2dace] font-semibold border-[#ffffff50]
             border-[3px] rounded-[5px] px-4 py-2 hover:border-[#ff6046]

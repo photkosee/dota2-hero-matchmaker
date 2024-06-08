@@ -16,7 +16,7 @@ const QuestionPage = () => {
     }, 1500);
     setTimeout(() => {
       if (option.character) {
-        navigate(`/hero/${option.character}`);
+        navigate(`/dota2-hero-matchmaker/hero/${option.character}`);
       } else if (option.options) {
         setCurrentNode(option as Node);
       }
@@ -59,7 +59,7 @@ const QuestionPage = () => {
           </div>
 
           <div className="flex flex-col gap-3 items-center">
-            <a href="/">
+            <a href="/dota2-hero-matchmaker/">
               <button
                 className="uppercase text-[#e2dace] font-semibold border-[#ffffff50]
                 border-[3px] rounded-[5px] px-4 py-2 hover:border-[#ff6046]

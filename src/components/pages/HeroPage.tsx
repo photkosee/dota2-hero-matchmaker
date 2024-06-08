@@ -1,5 +1,8 @@
 import { useParams } from "react-router-dom";
 
+const URL =
+  "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/";
+
 const HeroPage = () => {
   const { hero } = useParams();
 
@@ -15,19 +18,14 @@ const HeroPage = () => {
         >
           <div className="w-full max-h-[500px] relative">
             <video
-              poster={`https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/${hero}.png`}
+              poster={`${URL}${hero}.png`}
               autoPlay
               preload="auto"
               loop
               playsInline
             >
-              <source
-                src={`https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/${hero}.webm`}
-                type="video/webm"
-              />
-              <img
-                src={`https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/${hero}.png`}
-              />
+              <source src={`${URL}${hero}.webm`} type="video/webm" />
+              <img src={`${URL}${hero}.png`} />
             </video>
 
             <div className="absolute bottom-10 left-5 flex flex-col">
@@ -41,7 +39,7 @@ const HeroPage = () => {
           </div>
 
           <div className="flex flex-col gap-3 items-center">
-            <a href="/">
+            <a href="/dota2-hero-matchmaker/">
               <button
                 className="uppercase text-[#e2dace] font-semibold border-[#ffffff50]
                 border-[3px] rounded-[5px] px-4 py-2 hover:border-[#ff6046]
