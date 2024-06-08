@@ -31,7 +31,7 @@ const QuestionPage = () => {
     <>
       <div
         className="min-h-screen w-[calc(100vw - 100%)] h-full flex justify-center
-        bg-[url('../public/q-bg.webp')] bg-cover bg-center bg-no-repeat px-5 py-7"
+        bg-[url('../public/q-bg.webp')] bg-cover bg-center bg-no-repeat p-7"
       >
         <div
           className="w-full max-w-3xl animate-fadein h-full flex flex-col
@@ -39,18 +39,21 @@ const QuestionPage = () => {
         >
           <div
             className={`
-              mt-[100px] flex flex-col md:items-center gap-7 w-full min-h-[400px]
+              mt-[100px] flex flex-col text-center items-center gap-8 w-full min-h-[400px]
               ${fade && "animate-fadeback"}
             `}
           >
-            <p className="text-3xl text-white font-semibold">
+            <span className="text-3xl text-white font-semibold uppercase">
               {currentNode.question}
-            </p>
+            </span>
+
+            <div className="bg-[#ff6046] w-[70px] h-[3px] rounded-[1px]" />
+
             <div className="w-full flex flex-col gap-3">
               {currentNode.options.map((option, index) => (
                 <button
                   key={index}
-                  className="w-full p-2.5 rounded-md border border-gray-900/50 shadow-xl
+                  className="w-full py-3 rounded-md border border-gray-900/50 shadow-xl
                   bg-gradient-to-r from-black/50 to-black/30 hover:translate-y-[-3px]
                   transition-all duration-350"
                   onClick={() => handleAnswerClick(option)}
