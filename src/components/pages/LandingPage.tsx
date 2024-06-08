@@ -1,4 +1,12 @@
+import { useNavigate } from "react-router-dom";
+
 const LandingPage = () => {
+  const navigate = useNavigate();
+
+  const toQuestion = () => {
+    navigate("/question");
+  };
+
   return (
     <div
       className="min-h-screen w-[calc(100vw - 100%)] h-full flex justify-center
@@ -21,15 +29,14 @@ const LandingPage = () => {
           best!
         </p>
         <div className="flex flex-col gap-3 items-center">
-          <a href="/dota2-hero-matchmaker/question">
-            <button
-              className="uppercase text-[#e2dace] font-semibold border-[#ffffff50]
+          <button
+            className="uppercase text-[#e2dace] font-semibold border-[#ffffff50]
             border-[3px] rounded-[5px] px-4 py-2 hover:border-[#ff6046]
             hover:translate-y-[-3px] transition-all duration-350"
-            >
-              Discover Now
-            </button>
-          </a>
+            onClick={toQuestion}
+          >
+            Discover Now
+          </button>
           <a
             href="https://github.com/photkosee/dota2-hero-matchmaker"
             target="_blank"

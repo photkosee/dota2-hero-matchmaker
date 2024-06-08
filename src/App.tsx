@@ -1,13 +1,13 @@
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 import PageList from "./PageList";
 
 const App = () => {
   return (
     <>
-      <Router>
+      <HashRouter>
         <PageList />
-      </Router>
+      </HashRouter>
     </>
   );
 };

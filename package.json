@@ -1,7 +1,7 @@
 {
   "name": "dota2-hero-matchmaker",
-  "private": true,
-  "homepage": "https://photkosee.github.io/dota2-hero-matchmaker/",
+  "private": false,
+  "homepage": "https://photkosee.github.io/dota2-hero-matchmaker/#/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

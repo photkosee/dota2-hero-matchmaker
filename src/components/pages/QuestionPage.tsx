@@ -9,6 +9,10 @@ const QuestionPage = () => {
   const [fade, setFade] = useState<boolean>(false);
   const navigate = useNavigate();
 
+  const backHome = () => {
+    navigate("/");
+  };
+
   const handleAnswerClick = (option: Option) => {
     setFade(true);
     setTimeout(() => {
@@ -16,7 +20,7 @@ const QuestionPage = () => {
     }, 1500);
     setTimeout(() => {
       if (option.character) {
-        navigate(`/dota2-hero-matchmaker/hero/${option.character}`);
+        navigate(`/hero/${option.character}`);
       } else if (option.options) {
         setCurrentNode(option as Node);
       }
@@ -59,15 +63,14 @@ const QuestionPage = () => {
           </div>
 
           <div className="flex flex-col gap-3 items-center">
-            <a href="/dota2-hero-matchmaker/">
-              <button
-                className="uppercase text-[#e2dace] font-semibold border-[#ffffff50]
-                border-[3px] rounded-[5px] px-4 py-2 hover:border-[#ff6046]
-                hover:translate-y-[-3px] transition-all duration-350"
-              >
-                Back to home
-              </button>
-            </a>
+            <button
+              className="uppercase text-[#e2dace] font-semibold border-[#ffffff50]
+              border-[3px] rounded-[5px] px-4 py-2 hover:border-[#ff6046]
+              hover:translate-y-[-3px] transition-all duration-350"
+              onClick={backHome}
+            >
+              Back to home
+            </button>
             <a
               href="https://github.com/photkosee/dota2-hero-matchmaker"
               target="_blank"

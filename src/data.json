@@ -597,7 +597,7 @@
                 },
                 {
                   "answer": "Quick But Not Unreasonable",
-                  "character": "necrosphos"
+                  "character": "necrolyte"
                 },
                 {
                   "answer": "When I Get Around to It",
@@ -1021,7 +1021,7 @@
                             },
                             {
                               "answer": "No",
-                              "question": "Do YOu Want to Make Race Car Noises While Playing?",
+                              "question": "Do You Want to Make Race Car Noises While Playing?",
                               "options": [
                                 {
                                   "answer": "Yes",

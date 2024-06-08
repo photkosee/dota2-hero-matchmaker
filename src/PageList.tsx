@@ -8,15 +8,9 @@ const PageList = () => {
   return (
     <>
       <Routes>
-        <Route path="/dota2-hero-matchmaker/" element={<LandingPage />} />
-        <Route
-          path="/dota2-hero-matchmaker/question"
-          element={<QuestionPage />}
-        />
-        <Route
-          path="/dota2-hero-matchmaker/hero/:hero"
-          element={<HeroPage />}
-        />
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/question" element={<QuestionPage />} />
+        <Route path="/hero/:hero" element={<HeroPage />} />
       </Routes>
     </>
   );
