@@ -1,6 +1,6 @@
 import { useNavigate, useParams } from "react-router-dom";
 import { isMobile } from "react-device-detect";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const URL =
   "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/";
@@ -13,6 +13,10 @@ const HeroPage = () => {
   const backHome = () => {
     navigate("/");
   };
+
+  useEffect(() => {
+    setTimeout(() => setLoaded(true), 2500);
+  }, []);
 
   return (
     <>
@@ -32,7 +36,8 @@ const HeroPage = () => {
             {isMobile ? (
               <img
                 src={`${URL}${hero}.png`}
-                onLoad={() => setInterval(() => setLoaded(true), 350)}
+                onLoad={() => setTimeout(() => setLoaded(true), 350)}
+                alt="Cannot load this hero's image"
               />
             ) : (
               <video
@@ -41,10 +46,13 @@ const HeroPage = () => {
                 preload="auto"
                 loop
                 playsInline
-                onLoad={() => setInterval(() => setLoaded(true), 350)}
+                onLoad={() => setTimeout(() => setLoaded(true), 350)}
               >
                 <source src={`${URL}${hero}.webm`} type="video/webm" />
-                <img src={`${URL}${hero}.png`} />
+                <img
+                  src={`${URL}${hero}.png`}
+                  alt="Cannot load this hero's image"
+                />
               </video>
             )}
 
