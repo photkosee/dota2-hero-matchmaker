@@ -7,9 +7,9 @@
 
 1. [Inspiration](#inspiration)
 2. [What this does?](#what-this-does)
-3. [Built with](#built-with)
-4. [Data Source](#data-source)
-5. [Credits](#credits)
+3. [Data Source](#data-source)
+4. [Credits](#credits)
+5. [Built with](#built-with)
 6. [Author](#author)
 7. [Deployment](#deployment)
 8. [Contributing](#contributing)
