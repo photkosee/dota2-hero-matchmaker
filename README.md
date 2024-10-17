@@ -3,16 +3,16 @@
 <p align="center">Answer fun questions to discover your perfect Dota 2 hero. Whether you play support, offlane, mid, or carry, find the hero that suits you best! <a href="https://photkosee.github.io/dota2-hero-matchmaker/#/">Try now!</a></p>
 
 
-### Table of Contents
+## Table of Contents
 
-1. [Inspiration](#inspiration)
-2. [What this does?](#what-this-does)
-3. [Data Source](#data-source)
-4. [Credits](#credits)
-5. [Built with](#built-with)
-6. [Author](#author)
-7. [Deployment](#deployment)
-8. [Contributing](#contributing)
+- [Inspiration](#inspiration)
+- [What this does?](#what-this-does)
+- [Data Source](#data-source)
+- [Credits](#credits)
+- [Built with](#built-with)
+- [Author](#author)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
 
 
 ## Inspiration
@@ -44,7 +44,7 @@ The idea of the flowchart is from a user named [StackBabber59](https://www.reddi
 ## Author
 
 Phot Koseekrainiramon
-- [LinkedIn](https://www.linkedin.com/in/phot-kosee/)
+- [LinkedIn](https://www.linkedin.com/in/photkosee/)
 - [GitHub](https://github.com/photkosee)
 
 ## Deployment
