@@ -35,22 +35,22 @@ const HeroPage = () => {
           >
             {isMobile ? (
               <img
-                src={`${URL}${hero}.png`}
+                src={`${URL}${hero.toLowerCase()}.png`}
                 onLoad={() => setTimeout(() => setLoaded(true), 350)}
                 alt="Cannot load this hero's image"
               />
             ) : (
               <video
-                poster={`${URL}${hero}.png`}
+                poster={`${URL}${hero.toLowerCase()}.png`}
                 autoPlay
                 preload="auto"
                 loop
                 playsInline
                 onLoad={() => setTimeout(() => setLoaded(true), 350)}
               >
-                <source src={`${URL}${hero}.webm`} type="video/webm" />
+                <source src={`${URL}${hero.toLowerCase()}.webm`} type="video/webm" />
                 <img
-                  src={`${URL}${hero}.png`}
+                  src={`${URL}${hero.toLowerCase()}.png`}
                   alt="Cannot load this hero's image"
                 />
               </video>
